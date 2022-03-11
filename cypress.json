@@ -1,0 +1,22 @@
+ {
+     
+    "baseUrl": "http://www.casasbahia.com.br",
+    "testFiles": "**/*.feature",
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "chromeWebSecurity": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportFilename": "ruslt_test",
+        "reportDir": "cypress/reports/relatorio/",
+        "quiet": true,
+        "overwrite": true,
+        "html": true,
+        "json": true
+    },
+    "videosFolder": "cypress/reports/video",
+     "Accept-Encoding": "gzip, deflate",
+     "responseTimeout": 120000
+
+        
+}
