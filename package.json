@@ -1,21 +1,20 @@
 {
-  "name": "projeto-casasbahia",
+  "name": "projeto-ecommerce",
   "version": "1.0.0",
-  "description": "Carrinho de Compras",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open",
-    "test:chrome": "cypress run --browser chrome --no-exit"
+    "test": "npx cypress open"
   },
-  "author": "Thiago Vasconcelos",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@testing-library/cypress": "^8.0.2",
     "cypress": "^9.5.1",
-    "cypress-cucumber-preprocessor": "^4.3.1"   
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "mochawesome": "^7.1.2"
   },
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/integration/pageCasasBahia/**/"
-    
   }
 }
